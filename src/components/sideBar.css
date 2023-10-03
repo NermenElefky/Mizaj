@@ -1,0 +1,30 @@
+.sidebar{
+    background: #fff;
+    display: inline-block;
+    padding: 20px 12px;
+    height: calc(100dvh - 87px);
+    /* box-shadow: 2px 1px 3px rgb(0 0 0 / 20%); */
+}
+ul li {
+    margin-bottom: 20px;
+    padding: 5px 0px;
+}
+ul li:hover , ul li.active {
+    background-color: var(--h-color);
+    border-radius: 4px;
+}
+ul a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul .icon{
+    color: var(--d-violet);
+}
+ul span{
+    color: #000;
+    display: block;
+    margin-top: 3px;
+    font-size: 11px;
+    text-transform: capitalize;
+}
